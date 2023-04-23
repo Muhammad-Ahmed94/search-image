@@ -1,0 +1,19 @@
+/* .image-list
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 12px;
+} */
+
+.image-list
+{
+    columns: 6 200px;
+    column-gap: 13px;
+}
+
+img
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
